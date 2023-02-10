@@ -69,7 +69,7 @@ author:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://patrickusaf.com/patrickusaf"
+      url: "https://patrickusaf.com/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/patrickusaf"
@@ -85,9 +85,6 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/patrickusaf"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/patrickusaf"
 
 defaults:
   # _posts
