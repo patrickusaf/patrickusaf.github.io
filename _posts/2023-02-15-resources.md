@@ -1,12 +1,13 @@
 ---
 title: "Resources"
+header:
+  image: /assets/PS_reducida.jpg
+  caption:
 date: 2023-02-15 09:49
 categories:
   - resources
 tags:
   - resources
-header:
-  teaser: /assets/PS_reducida.jpg
 ---
 
 Aquí pondré recursos interesantes:
