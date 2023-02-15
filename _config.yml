@@ -75,7 +75,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "Patrick_usaf@hotmail.com"
+      url: "mailto:Patrick_usaf@hotmail.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/patrickusaf"
