@@ -104,8 +104,6 @@ defaults:
       comments: true
       share: true
       related: true
-      show_date: true
-      comments: true
   # _pages
   - scope:
       path: "_pages"
