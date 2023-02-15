@@ -5,6 +5,8 @@ categories:
   - resources
 tags:
   - resources
+header:
+  teaser: /assets/PS_reducida.jpg
 ---
 
 Aquí pondré recursos interesantes:

@@ -30,6 +30,8 @@ github_username: Patrickusaf
 minimal_mistakes_skin: default
 search: true
 breadcrumbs: true  # disabled by default
+teaser: /assets/PS_reducida.jpg
+date_format: "%d-%m-%Y"
 
 # Build settings
 markdown: kramdown
@@ -67,7 +69,6 @@ plugins:
 author:
   name   : "Patrick Svensson"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
   location: "Málaga, Spain"
   links:
     - label: "Website"
@@ -101,6 +102,8 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
+      comments: true
   # _pages
   - scope:
       path: "_pages"
