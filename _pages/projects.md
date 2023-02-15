@@ -6,5 +6,5 @@ title: "Projects"
 Proyectos:
 
 GAMES:
-- [](http://url-you-want-linked])
--
+- [Dragon Repeller](/projects/games/dragon-repeller/dragon-repeller.html)
+- [Dinosaurio de Google](/projects/games/google-dinosaur/index.html)
