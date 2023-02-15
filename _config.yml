@@ -31,7 +31,7 @@ minimal_mistakes_skin: default
 search: true
 breadcrumbs: true  # disabled by default
 teaser: /assets/PS_reducida.jpg
-date_format: "%d-%m-%Y"
+date_format: "%d/%m/%Y"
 
 # Build settings
 markdown: kramdown
