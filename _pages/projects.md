@@ -3,8 +3,6 @@ permalink: /projects/
 title: "Projects"
 ---
 
-# Proyectos
-
 ## 1. Proyectos de desarrollo:
 
 ### 1.1. GAMES:
