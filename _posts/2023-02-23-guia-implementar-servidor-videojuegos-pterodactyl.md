@@ -1,11 +1,11 @@
 ---
 title: "Guía: Cómo implementar un servidor de videojuegos con Pterodactyl"
-excerpt: "This post should display a **header with an overlay image**, if the theme supports it."
+excerpt: "Mi propia experiencia implementando un **servidor de videojuegos** con Debian y Pterodactyl."
 header:
   overlay_image: /assets/images/pterodactyl.jpg
   overlay_filter: 0.2
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-actions:s
+actions:
     - label: "More Info"
       url: "https://unsplash.com"
 date: 2023-02-20 13:0s3
