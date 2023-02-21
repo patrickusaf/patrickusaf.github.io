@@ -1,5 +1,5 @@
 main:
-  - title: "Human Resources"
+  - title: "HR"
     url: /hr/
   - title: "Data Analytics"
     url: /da/
@@ -7,6 +7,8 @@ main:
     url: /dev/
   - title: "Resources"
     url: /resources/
+  - title: "Blog"
+    url: /blog/
   - title: "About"
     url: /about/
 
