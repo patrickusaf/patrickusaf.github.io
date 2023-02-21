@@ -1,6 +1,6 @@
 ---
-permalink: /projects/
-title: "Projects"
+permalink: /dev/
+title: "Development Projects"
 ---
 
 ## 1. Proyectos de desarrollo:

@@ -1,6 +1,10 @@
 main:
-  - title: "Projects"
-    url: /projects/
+  - title: "Human Resources"
+    url: /hr/
+  - title: "Data Analytics"
+    url: /da/
+  - title: "Coding"
+    url: /dev/
   - title: "Resources"
     url: /resources/
   - title: "About"
