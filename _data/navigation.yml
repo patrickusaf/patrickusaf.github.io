@@ -9,7 +9,7 @@ main:
     url: /resources/
   - title: "Blog"
     url: /blog/
-  - title: "About"
+  - title: "About Me"
     url: /about/
 
 metal-camera-tutorial:
