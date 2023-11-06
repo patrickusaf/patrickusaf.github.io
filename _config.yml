@@ -36,7 +36,11 @@ date_format: "%d/%m/%Y"
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+kramdown:
+    syntax_highlighter_opts:
+      disable : true
+#remote_theme: mmistakes/minimal-mistakes
+remote_theme: alexander-heimbuch/picodocs
 
 # Outputting
 permalink: /:categories/:title/
