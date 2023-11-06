@@ -13,9 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 locale: "es-ES"
 title: Patrickusaf
-subtitule: "Version 0.0"
+subtitle: "Version 0.0"
 title_separator: "-"
 name: &name "Patrick Svensson"
 email: Patrick_usaf@hotmail.com
@@ -36,6 +37,7 @@ date_format: "%d/%m/%Y"
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -99,7 +101,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
