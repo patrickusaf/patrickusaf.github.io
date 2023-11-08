@@ -1,5 +1,18 @@
 main:
   - title: "Human Resources"
+    children:
+      - title: "Recruiting"
+        url: /hr/recruiting/
+      - title: "Onboarding"
+        url: /hr/onboarding/
+      - title: "Performance Management"
+        url: /hr/performance-management/
+      - title: "Compensation"
+        url: /hr/compensation/
+      - title: "Benefits"
+        url: /hr/benefits/
+      - title: "Offboarding"
+        url: /hr/offboarding/
     url: /hr/
   - title: "Data Analytics"
     url: /da/

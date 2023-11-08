@@ -2,8 +2,9 @@
 title: "Guía: Cómo implementar un servidor de videojuegos con Pterodactyl"
 excerpt: "Mi propia experiencia implementando un **servidor de videojuegos** con Debian y Pterodactyl."
 header:
+  #teaser: /assets/images/pterodactyl.png
   overlay_image: /assets/images/pterodactyl.jpg
-  overlay_filter: 0.2
+  overlay_filter: 0.8
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 actions:
     - label: "More Info"

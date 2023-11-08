@@ -1,46 +1,56 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# `jekyll serve`. If you change this file, please restart the server process.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-locale: "es-ES"
-title: Patrickusaf
-subtitle: "Version 0.0"
-title_separator: "-"
-name: &name "Patrick Svensson"
-email: Patrick_usaf@hotmail.com
-url: "https://patrickusaf.github.io"
-repository: 600140205
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: Patrickusaf
-github_username: Patrickusaf
-#minimal_mistakes_skin: default
-search: true
-breadcrumbs: true  # disabled by default
-#teaser: /assets/PS_reducida.jpg
-date_format: "%d/%m/%Y"
+# Last update: 08/11/2023 by PS
+
+# theme                  : "minimal-mistakes-jekyll"
+remote_theme             : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+locale                   : "es-ES"
+title                    : Patrickusaf
+title_separator          : "-"
+subtitle                 : "Version 1.0.0"
+name                     : &name "Patrick Svensson"
+description              : >- # this means to ignore newlines until "baseurl:"
+                           Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+url                      : "https://patrickusaf.github.io"
+baseurl                  : #
+repository               : "patrickusaf/patrickusaf.github.io"
+teaser                   : #
+logo                     : "/assets/images/logos/logo-iniciales-negro.png"           
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+breadcrumbs              : true  # disabled by default
+words_per_minute         : 200
+
+# Analytics
+analytics:
+  provider               : google # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : "G-BLZ0XJCLKJ"
+    anonymize_ip         : # true, false (default)
+
+# Site Author
+twitter_username         : Patrickusaf
+github_username          : Patrickusaf
+search                   : true
+date_format              : "%d/%m/%Y"
 
 # Build settings
 markdown: kramdown
 kramdown:
     syntax_highlighter_opts:
       disable : true
-remote_theme: mmistakes/minimal-mistakes
-#remote_theme: alexander-heimbuch/picodocs
 
 # Outputting
 permalink: /:categories/:title/
@@ -48,42 +58,57 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Europe/Madrid # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+# Reading Files
 include:
+  - .htaccess
   - _pages
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
 exclude:
-   - Gemfile
-   - Gemfile.lock
-   - node_modules
-   - vendor/bundle/
-   - vendor/cache/
-   - vendor/gems/
-   - vendor/ruby/
-   - /docs # ignore Minimal Mistakes /docs
-   - /test # ignore Minimal Mistakes /test
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# Plugins (previously gems:)
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
+# Social Icons rendered by Font Awesome
+# https://fontawesome.com/icons?d=gallery&s=brands
 
 author:
   name   : "Patrick Svensson"
   avatar : "/assets/images/bio-photo.jpg"
   location: "Málaga, Spain"
+  email                    : Patrick_usaf@hotmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:Patrick_usaf@hotmail.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    - label: "X"
+      icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/patrickusaf"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -92,7 +117,7 @@ author:
 footer:
   links:
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/patrickusaf"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -105,7 +130,6 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
       read_time: true
       comments: true
       share: true
@@ -126,19 +150,71 @@ defaults:
       author_profile: false
       share: true
 
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
 
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
+
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
