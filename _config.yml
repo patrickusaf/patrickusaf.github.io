@@ -21,7 +21,7 @@ title_separator: "-"
 name: &name "Patrick Svensson"
 email: Patrick_usaf@hotmail.com
 url: "https://patrickusaf.github.io"
-repository: "https://github.com/patrickusaf/patrickusaf.github.io"
+repository: 600140205
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -39,8 +39,8 @@ markdown: kramdown
 kramdown:
     syntax_highlighter_opts:
       disable : true
-#remote_theme: mmistakes/minimal-mistakes
-remote_theme: alexander-heimbuch/picodocs
+remote_theme: mmistakes/minimal-mistakes
+#remote_theme: alexander-heimbuch/picodocs
 
 # Outputting
 permalink: /:categories/:title/

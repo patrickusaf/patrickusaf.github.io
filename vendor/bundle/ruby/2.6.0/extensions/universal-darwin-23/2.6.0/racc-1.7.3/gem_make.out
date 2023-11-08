@@ -1,0 +1,17 @@
+current directory: /Users/patrickusaf/Library/CloudStorage/GoogleDrive-psvensson1992@gmail.com/Mi unidad/Dev/website/patrickusaf.github.io/patrickusaf.github.io/vendor/bundle/ruby/2.6.0/gems/racc-1.7.3/ext/racc/cparse
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /Library/Ruby/Site/2.6.0 -r ./siteconf20231108-17710-e8m7e4.rb extconf.rb
+creating Makefile
+
+current directory: /Users/patrickusaf/Library/CloudStorage/GoogleDrive-psvensson1992@gmail.com/Mi unidad/Dev/website/patrickusaf.github.io/patrickusaf.github.io/vendor/bundle/ruby/2.6.0/gems/racc-1.7.3/ext/racc/cparse
+make "DESTDIR=" clean
+
+current directory: /Users/patrickusaf/Library/CloudStorage/GoogleDrive-psvensson1992@gmail.com/Mi unidad/Dev/website/patrickusaf.github.io/patrickusaf.github.io/vendor/bundle/ruby/2.6.0/gems/racc-1.7.3/ext/racc/cparse
+make "DESTDIR="
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: -multiply_defined is obsolete
+ld: warning: search path '/AppleInternal/Library/BuildRoots/11aa8fb2-5f4b-11ee-bc7f-926038f30c31/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.1.Internal.sdk/usr/local/lib' not found
+
+current directory: /Users/patrickusaf/Library/CloudStorage/GoogleDrive-psvensson1992@gmail.com/Mi unidad/Dev/website/patrickusaf.github.io/patrickusaf.github.io/vendor/bundle/ruby/2.6.0/gems/racc-1.7.3/ext/racc/cparse
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20231108-17710-8wl8ba/racc
