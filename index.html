@@ -1,4 +1,451 @@
----
-layout: home
-author_profile: true
----
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patrick Svensson | People Analytics & Developer</title>
+    <meta name="description" content="Explorando el comportamiento humano a través de los datos. IA, hardware, software y humanware." />
+    
+    <!-- Google Fonts: Space Grotesk, Inter Tight, Space Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter+Tight:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="lang-es">
+    <!-- IKEA FX Moving Grid & Noise Grain -->
+    <div class="eng-grid"></div>
+    <div class="grain"></div>
+
+    <div class="container">
+        <div class="main-card">
+            <!-- Header/Hero Section -->
+            <header class="hero">
+                <div class="hero-main">
+                    <div class="hero-id">
+                        <img src="images/PS_reducida.jpg" alt="Avatar Patrick Svensson" class="avatar" />
+                        
+                        <div class="hero-name">
+                            <div class="hero-k">
+                                <span class="lang-es">People Analytics · Datos · Desarrollo</span>
+                                <span class="lang-en">People Analytics · Data · Dev</span>
+                            </div>
+                            <h1 class="hero-t" id="hero-decode">Patrick Svensson</h1>
+                        </div>
+                    </div>
+                    
+                    <p class="hero-s">
+                        <span class="lang-es">Decodificando el talento organizacional mediante datos. Psicología, tecnología del software y analítica avanzada.</span>
+                        <span class="lang-en">Decoding organizational talent through data. Psychology, software technology, and advanced analytics.</span>
+                    </p>
+                </div>
+
+                <!-- Floating Terminal Language Switcher -->
+                <div class="lang-switcher-wrap">
+                    <button class="lang-toggle-btn" id="lang-toggle-btn" aria-label="Cambiar idioma / Change language">
+                        <span class="lang-indicator active" id="lang-es-ind">ES</span>
+                        <span class="lang-divider">|</span>
+                        <span class="lang-indicator" id="lang-en-ind">EN</span>
+                    </button>
+                </div>
+            </header>
+
+            <!-- HR Talent Intelligence Dashboard (Nate Gentile Dark Edition) -->
+            <section class="section">
+                <div class="section-head">
+                    <div>
+                        <div class="section-k">System Status</div>
+                        <h2 class="section-title">HR Talent Intelligence</h2>
+                    </div>
+                    <span class="dashboard-status">● LIVE DATA</span>
+                </div>
+                
+                <div class="interactive-dashboard glass-card">
+                    <div class="dashboard-tabs">
+                        <button class="dash-tab-btn active" id="tab-retention">Retention</button>
+                        <button class="dash-tab-btn" id="tab-satisfaction">Engagement</button>
+                        <button class="dash-tab-btn" id="tab-headcount">FTEs</button>
+                    </div>
+                    
+                    <div class="dashboard-body">
+                        <!-- KPI Row -->
+                        <div class="kpi-row">
+                            <div class="kpi-card">
+                                <span class="kpi-label">
+                                    <span class="lang-es">Tasa Retención</span>
+                                    <span class="lang-en">Retention Rate</span>
+                                </span>
+                                <span class="kpi-value" id="kpi-value-1">94.2%</span>
+                                <span class="kpi-change positive">↑ 1.4% YoY</span>
+                            </div>
+                            <div class="kpi-card">
+                                <span class="kpi-label">
+                                    <span class="lang-es">Compromiso</span>
+                                    <span class="lang-en">Engagement</span>
+                                </span>
+                                <span class="kpi-value" id="kpi-value-2">8.4<span class="kpi-small">/10</span></span>
+                                <span class="kpi-change positive">↑ 0.3 pts</span>
+                            </div>
+                            <div class="kpi-card">
+                                <span class="kpi-label">
+                                    <span class="lang-es">Headcount Total</span>
+                                    <span class="lang-en">Total Headcount</span>
+                                </span>
+                                <span class="kpi-value" id="kpi-value-3">1,248</span>
+                                <span class="kpi-change positive">↑ 8% growth</span>
+                            </div>
+                        </div>
+
+                        <!-- Mini Chart Area -->
+                        <div class="chart-container">
+                            <div class="chart-y-axis">
+                                <span>100%</span>
+                                <span>80%</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="chart-bars" id="chart-bars-container">
+                                <div class="chart-bar-col">
+                                    <div class="chart-bar" style="height: 92%;">
+                                        <span class="chart-bar-tooltip">92.4%</span>
+                                    </div>
+                                    <span class="chart-bar-label">Q1</span>
+                                </div>
+                                <div class="chart-bar-col">
+                                    <div class="chart-bar" style="height: 93%;">
+                                        <span class="chart-bar-tooltip">93.1%</span>
+                                    </div>
+                                    <span class="chart-bar-label">Q2</span>
+                                </div>
+                                <div class="chart-bar-col">
+                                    <div class="chart-bar" style="height: 91%;">
+                                        <span class="chart-bar-tooltip">91.8%</span>
+                                    </div>
+                                    <span class="chart-bar-label">Q3</span>
+                                </div>
+                                <div class="chart-bar-col">
+                                    <div class="chart-bar" style="height: 94.2%;">
+                                        <span class="chart-bar-tooltip">94.2%</span>
+                                    </div>
+                                    <span class="chart-bar-label">Q4</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section class="section" id="about">
+                <div class="section-head">
+                    <div>
+                        <div class="section-k">root@ps-core:~# profile --info</div>
+                        <h2 class="section-title">
+                            <span class="lang-es">Sobre Mí</span>
+                            <span class="lang-en">About Me</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="section-copy">
+                    <p>
+                        <span class="lang-es">Mi trayectoria une la **Psicología** (comportamiento humano) y la **Tecnología de Software** (desarrollo y datos). Tengo más de 7 años de experiencia coordinando proyectos de IT y analítica a nivel internacional, especializándome en estructurar métricas de talento que potencien la toma de decisiones corporativas.</span>
+                        <span class="lang-en">My career bridges **Psychology** (human behavior) and **Software Technology** (development and data). I have over 7 years of experience coordinating IT and analytics projects globally, specializing in structuring talent metrics that drive corporate decisions.</span>
+                    </p>
+                    <div class="stats-row">
+                        <div class="stat-item">
+                            <span class="stat-n">7+</span>
+                            <span class="stat-l">
+                                <span class="lang-es">Años Exp.</span>
+                                <span class="lang-en">Years Exp.</span>
+                            </span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-n">100X</span>
+                            <span class="stat-l">
+                                <span class="lang-es">Velocidad</span>
+                                <span class="lang-en">Analysis Speed</span>
+                            </span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-n">85%</span>
+                            <span class="stat-l">
+                                <span class="lang-es">OEE Máx.</span>
+                                <span class="lang-en">Max OEE</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Trayectoria / Experience Section (Nate Gentile style grid) -->
+            <section class="section" id="experience">
+                <div class="section-head">
+                    <div>
+                        <div class="section-k">root@ps-core:~# cat experience.log</div>
+                        <h2 class="section-title">
+                            <span class="lang-es">Trayectoria</span>
+                            <span class="lang-en">Experience</span>
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="links-grid">
+                    <!-- Job 1 -->
+                    <div class="link-ac featured">
+                        <span class="ac-n"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg></span>
+                        <div class="ac-content">
+                            <div class="ac-tgt">People Analyst &mdash; The Workshop</div>
+                            <div class="ac-d">
+                                <span class="lang-es">2025 - Presente | Málaga, España. Análisis cuantitativo de datos de capital humano, diseño de automatizaciones JIRA (filtrado seguro PII/BSI) y dashboards interactivos (Tableau, SQL).</span>
+                                <span class="lang-en">2025 - Present | Málaga, Spain. Quantitative analysis of human capital data, JIRA API automation pipelines (securing PII/BSI), and interactive dashboards (Tableau, SQL).</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Job 2 -->
+                    <div class="link-ac">
+                        <span class="ac-n"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg></span>
+                        <div class="ac-content">
+                            <div class="ac-tgt">Head of Human Resources &mdash; AppliediT</div>
+                            <div class="ac-d">
+                                <span class="lang-es">2021 - 2025 | El Puerto de Santa María, España. Dirección de RRHH y People Analytics (predicción de rotación voluntaria y optimización de costes de talento).</span>
+                                <span class="lang-en">2021 - 2025 | El Puerto de Santa María, Spain. Direction of HR and People Analytics (voluntary turnover prediction and talent cost optimization).</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Job 3 -->
+                    <div class="link-ac">
+                        <span class="ac-n"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg></span>
+                        <div class="ac-content">
+                            <div class="ac-tgt">Software Development Lead &mdash; AppliediT</div>
+                            <div class="ac-d">
+                                <span class="lang-es">2015 - 2016 | Desarrollo de herramientas de parseo y análisis en C. Administración de bases de datos (SQL Server, Oracle, SAP) e infraestructura Azure.</span>
+                                <span class="lang-en">2015 - 2016 | Development of parsing/analytical C tools. Relational databases (SQL Server, Oracle, SAP) and Azure cloud infrastructure management.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Job 4 -->
+                    <div class="link-ac">
+                        <span class="ac-n"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></span>
+                        <div class="ac-content">
+                            <div class="ac-tgt">Junior Software Developer &mdash; ORGAPLAN</div>
+                            <div class="ac-d">
+                                <span class="lang-es">2012 - 2013 | Northeim, Alemania. Migración de proyectos VS 6.0 a VS 2008. Rediseño de UI modernas y adaptación de formatos.</span>
+                                <span class="lang-en">2012 - 2013 | Northeim, Germany. Migration of VS 6.0 projects to VS 2008. Redesigning modern UIs and format conversion.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Academics -->
+                    <div class="link-ac">
+                        <span class="ac-n"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"></path></svg></span>
+                        <div class="ac-content">
+                            <div class="ac-tgt"><span class="lang-es">Educación y Másteres</span><span class="lang-en">Education & Master Degrees</span></div>
+                            <div class="ac-d">
+                                <span>• <strong>UNED:</strong> Máster en People Analytics (2022)<br></span>
+                                <span>• <strong>UOC:</strong> Máster en Dirección de Recursos Humanos (2020)<br></span>
+                                <span>• <strong>Licenciatura:</strong> <span class="lang-es">Psicología</span><span class="lang-en">B.Sc. Psychology</span><br></span>
+                                <span>• <strong>Titulado Superior:</strong> <span class="lang-es">Informática y Tecnología de Software</span><span class="lang-en">Computer Software Technology</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="section" id="projects">
+                <div class="section-head">
+                    <div>
+                        <div class="section-k">root@ps-core:~# list --projects</div>
+                        <h2 class="section-title">
+                            <span class="lang-es">Mis Proyectos</span>
+                            <span class="lang-en">My Projects</span>
+                        </h2>
+                    </div>
+                </div>
+
+                <!-- Nate style Tab filters -->
+                <div class="project-filter-container">
+                    <button class="filter-btn active" data-filter="all">ALL</button>
+                    <button class="filter-btn" data-filter="analytics">ANALYTICS</button>
+                    <button class="filter-btn" data-filter="development">DEV & GAMES</button>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: Executive People Analytics Dashboard (Analytics) -->
+                    <div class="project-card-wrap" data-category="analytics">
+                        <a href="#" class="link-ac featured">
+                            <span class="ac-n"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg></span>
+                            <div class="ac-content">
+                                <div class="ac-tgt">
+                                    <span class="lang-es">Dashboard Ejecutivo de Rotación</span>
+                                    <span class="lang-en">Executive Turnover Dashboard</span>
+                                </div>
+                                <div class="ac-d">
+                                    <span class="lang-es">Visualización analítica avanzada en Tableau y modelado predictivo con Python para identificar y gestionar la fuga voluntaria de talento.</span>
+                                    <span class="lang-en">Advanced analytical visualization in Tableau and predictive modeling in Python to identify and manage voluntary talent turnover.</span>
+                                </div>
+                            </div>
+                            <div class="ac-btn">Tableau / Python</div>
+                        </a>
+                    </div>
+
+                    <!-- Project 2: JIRA Automation Pipeline (Analytics) -->
+                    <div class="project-card-wrap" data-category="analytics">
+                        <a href="#" class="link-ac featured">
+                            <span class="ac-n"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg></span>
+                            <div class="ac-content">
+                                <div class="ac-tgt">
+                                    <span class="lang-es">Integrador de Datos JIRA</span>
+                                    <span class="lang-en">JIRA Data Integration Pipeline</span>
+                                </div>
+                                <div class="ac-d">
+                                    <span class="lang-es">Pipeline seguro en Python para la extracción, limpieza de información sensible (PII/Prestige) y modelado de costes de proyectos ágiles.</span>
+                                    <span class="lang-en">Secure Python pipeline for data extraction, sensitive information cleaning (PII/Prestige), and agile project cost modeling.</span>
+                                </div>
+                            </div>
+                            <div class="ac-btn">Python / JIRA</div>
+                        </a>
+                    </div>
+
+                    <!-- Project 3: Movie Explorer (Dev) -->
+                    <div class="project-card-wrap" data-category="development">
+                        <a href="projects/movies/movies.html" class="link-ac" target="_blank">
+                            <span class="ac-n"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect><line x1="7" y1="2" x2="7" y2="22"></line><line x1="17" y1="2" x2="17" y2="22"></line><line x1="2" y1="12" x2="22" y2="12"></line><line x1="2" y1="7" x2="7" y2="7"></line><line x1="2" y1="17" x2="7" y2="17"></line><line x1="17" y1="17" x2="22" y2="17"></line><line x1="17" y1="7" x2="22" y2="7"></line></svg></span>
+                            <div class="ac-content">
+                                <div class="ac-tgt">Movie Explorer</div>
+                                <div class="ac-d">
+                                    <span class="lang-es">Aplicación web interactiva que explora detalles de películas en tiempo real consultando la API de TMDB.</span>
+                                    <span class="lang-en">Interactive web application that explores movie details in real-time by querying the TMDB API.</span>
+                                </div>
+                            </div>
+                            <div class="ac-btn">Launch &rarr;</div>
+                        </a>
+                    </div>
+
+                    <!-- Project 4: Dragon Repeller (Dev) -->
+                    <div class="project-card-wrap" data-category="development">
+                        <a href="projects/games/dragon-repeller/dragon-repeller.html" class="link-ac" target="_blank">
+                            <span class="ac-n"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg></span>
+                            <div class="ac-content">
+                                <div class="ac-tgt">Dragon Repeller RPG</div>
+                                <div class="ac-d">
+                                    <span class="lang-es">Juego de rol de fantasía retro basado en texto, programado con manejo de estado en Vanilla Javascript.</span>
+                                    <span class="lang-en">Retro text-based fantasy RPG game programmed with state management in Vanilla Javascript.</span>
+                                </div>
+                            </div>
+                            <div class="ac-btn">Play &rarr;</div>
+                        </a>
+                    </div>
+
+                    <!-- Project 5: Google Dinosaur (Dev) -->
+                    <div class="project-card-wrap" data-category="development">
+                        <a href="projects/games/google-dinosaur/index.html" class="link-ac" target="_blank">
+                            <span class="ac-n"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><path d="M9 14l2-2 4 4"></path><circle cx="9" cy="9" r="1"></circle></svg></span>
+                            <div class="ac-content">
+                                <div class="ac-tgt">Google Dinosaur Clone</div>
+                                <div class="ac-d">
+                                    <span class="lang-es">Réplica del clásico juego offline de Chrome programado usando HTML5 Canvas y loops de animación.</span>
+                                    <span class="lang-en">Replica of Chrome's classic offline dinosaur game programmed using HTML5 Canvas and animation loops.</span>
+                                </div>
+                            </div>
+                            <div class="ac-btn">Play &rarr;</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section class="section" id="skills">
+                <div class="section-head">
+                    <div>
+                        <div class="section-k">root@ps-core:~# check --skills</div>
+                        <h2 class="section-title">
+                            <span class="lang-es">Habilidades</span>
+                            <span class="lang-en">Skills</span>
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-group">
+                        <div class="skill-name">Python / Pandas / Stats</div>
+                        <div class="skill-bar"><div class="skill-fill" style="width: 90%;"></div></div>
+                    </div>
+                    <div class="skill-group">
+                        <div class="skill-name">Tableau & Data Visualization</div>
+                        <div class="skill-bar"><div class="skill-fill" style="width: 85%;"></div></div>
+                    </div>
+                    <div class="skill-group">
+                        <div class="skill-name">SQL Database Systems</div>
+                        <div class="skill-bar"><div class="skill-fill" style="width: 80%;"></div></div>
+                    </div>
+                    <div class="skill-group">
+                        <div class="skill-name">HTML5 / CSS3 / Vanilla JS</div>
+                        <div class="skill-bar"><div class="skill-fill" style="width: 90%;"></div></div>
+                    </div>
+                    <div class="skill-group">
+                        <div class="skill-name">JIRA API & HR Security Gateway</div>
+                        <div class="skill-bar"><div class="skill-fill" style="width: 75%;"></div></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section (Nate Gentile Hacker Form Box) -->
+            <section class="section" id="contact">
+                <div class="section-head">
+                    <div>
+                        <div class="section-k">root@ps-core:~# send_message --contact</div>
+                        <h2 class="section-title">
+                            <span class="lang-es">Contacto</span>
+                            <span class="lang-en">Contact</span>
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="hacker-cta">
+                    <div class="hl-ascii">█▀█ ▄▀█ ▀█▀ █▀█ █ █▀▀ █▄▀
+█▀▀ █▀█ ░█░ █▀▄ █ █▄▄ █░█</div>
+
+                    <div class="hl-copy">
+                        <span class="lang-es">¿Quieres charlar sobre People Analytics, integrar APIs seguras o colaborar en desarrollos web corporativos? Envíame un correo directo a continuación.</span>
+                        <span class="lang-en">Want to discuss People Analytics, integrate secure APIs, or collaborate on corporate web developments? Send me a message below.</span>
+                    </div>
+
+                    <div class="hl-prompt">root@ps-core:~# iniciar_contacto --mail</div>
+                    
+                    <form id="contact-form" class="contact-form">
+                        <div class="hl-form">
+                            <span class="hl-cursor">&gt;<span class="hl-cursor-blink">_</span></span>
+                            <input type="text" id="name" name="name" class="hl-input" placeholder="TU_NOMBRE..." required />
+                        </div>
+                        <div class="hl-form">
+                            <span class="hl-cursor">&gt;<span class="hl-cursor-blink">_</span></span>
+                            <input type="email" id="email" name="email" class="hl-input" placeholder="TU_EMAIL..." required />
+                        </div>
+                        <div class="hl-form flex-column-align">
+                            <span class="hl-cursor align-self-start">&gt;<span class="hl-cursor-blink">_</span></span>
+                            <textarea id="message" name="message" class="hl-input text-area-hl" placeholder="ESCRIBE_TU_MENSAJE_AQUI..." required rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="hl-btn" id="submit-btn">[ ENVIAR ]</button>
+                        <div id="form-feedback" class="form-feedback"></div>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Footer & Social (Malt-style high energy links) -->
+            <footer class="ftr">
+                <a href="mailto:Patrick_usaf@hotmail.com" class="ftr-q">Patrick_usaf@hotmail.com</a>
+                <span class="divider-ftr">·</span>
+                <a href="https://github.com/patrickusaf" target="_blank" class="ftr-q">github.com/patrickusaf</a>
+                <span class="divider-ftr">·</span>
+                <a href="https://www.linkedin.com/in/patrick-svensson/" target="_blank" class="ftr-q">linkedin</a>
+            </footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

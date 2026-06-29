@@ -1,5 +1,0 @@
----
-BUNDLE_WITHOUT: "production"
-BUNDLE_PATH: "vendor/bundle"
-BUNDLE_DEPLOYMENT: "true"
-BUNDLE_FROZEN: "false"
